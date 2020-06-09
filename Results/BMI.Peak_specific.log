@@ -1,0 +1,37 @@
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--h2 ./Input/BMI.sumstats.gz \
+--ref-ld-chr ./Data/Peak_specific/86Tissue. \
+--out ./Result/BMI.Peak_specific \
+--overlap-annot  \
+--frqfile-chr ./Data/Frq/1000G.EAS.QC. \
+--w-ld-chr /home/fengzhanying/software/ldsc/weights/weights. 
+
+Beginning analysis at Mon Jun  8 22:39:13 2020
+Reading summary statistics from ./Input/BMI.sumstats.gz ...
+Read summary statistics for 1040803 SNPs.
+Reading reference panel LD Score from ./Data/Peak_specific/86Tissue.[1-22] ...
+Read reference panel LD Scores for 1108605 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /home/fengzhanying/software/ldsc/weights/weights.[1-22] ...
+Read regression weight LD Scores for 8768561 SNPs.
+After merging with reference panel LD, 859733 SNPs remain.
+After merging with regression SNP LD, 859733 SNPs remain.
+Removed 16 SNPs with chi^2 > 123.912 (859717 SNPs remain)
+Total Observed scale h2: 0.1025 (0.0066)
+Categories: base_0 Ammons_horn_0 BE2C_0 BJ_0 body_of_pancrea_0 breast_epithelium_0 caudate_nucleus_0 CD4_Primary_Cells_0 CD8_Primary_Cells_0 cerebellum_0 Fetal_Adrenal_Gland_0 Fetal_Heart_0 Fetal_Intestine_Large_0 Fetal_Intestine_Small_0 Fetal_Kidney_0 Fetal_Lung_0 Fetal_Muscle_0 Fetal_Ovary_0 Fetal_Renal_Cortex_0 Fetal_Renal_Pelvis_0 Fetal_Spinal_Cord_0 Fetal_Spleen_0 Fetal_Stomach_0 Fetal_Thymus_0 Fibroblasts_0 Foreskin_Fibroblast_Primary_Cells_skin02_0 Foreskin_Keratinocyte_Primary_Cells_skin02_0 frontal_cortex_0 Gastric_0 gastrocnemius_medialis_0 gastroesophageal_sphincter_0 GM12878_0 H1_BMP4_Derived_Trophoblast_Cultured_Cells_0 H1-hESC_0 H7-hESC_0 heart_left_ventricle_0 HeLa-S3_0 Hematopoietic_multipotent_progenitor_cell_0 HepG2_0 HumanBrain_H11W_0 HumanBrain_H13W_0 HumanBrain_H14W_0 HumanBrain_H16W_0 HumanBrain_H18W_0 HumanBrain_H23W_0 HumanBrain_H24W_0 HumanBrain_H26W_0 HumanBrain_H55Y_0 HumanBrain_H73Y_0 Jurkat_0 K562_0 lower_leg_skin_0 MCF-7_0 Melanocyte_0 ovary_0 Ovary_0 Panc1_0 Pancreas_0 Peyers_patch_0 Primary_B_cells_from_peripheral_blood_0 Primary_hematopoietic_stem_cells_G-CSF-mobilized_Female_0 Primary_monocytes_from_peripheral_blood_0 Primary_Natural_Killer_cells_from_peripheral_blood_0 Primary_T_cells_from_cord_blood_0 Psoas_Muscle_0 putamen_0 right_lobe_of_liver_0 sigmoid_colon_0 spleen_0 stomach_0 subcutaneous_adipose_tissue_0 T47D_0 thoracic_aorta_0 tibial_nerve_0 transverse_colon_0 Treg_Primary_Cells_0
+Lambda GC: 1.0466
+Mean Chi^2: 1.1187
+Intercept: 0.8699 (0.0102)
+Ratio < 0 (usually indicates GC correction).
+Reading annot matrix from ./Data/Peak_specific/86Tissue.[1-22] ...
+Results printed to ./Result/BMI.Peak_specific.results
+Analysis finished at Mon Jun  8 22:41:43 2020
+Total time elapsed: 2.0m:30.27s
