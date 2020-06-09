@@ -1,0 +1,45 @@
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 1.0.1
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./munge_sumstats.py \
+--out ./Input/BMI \
+--merge-alleles /home/fengzhanying/software/ldsc/BMI/w_hm3.snplist \
+--a1-inc  \
+--sumstats ./Input/BMI.txt 
+
+Interpreting column names as follows:
+Allele2:	Allele 2, interpreted as non-ref allele for signed sumstat.
+MarkerName:	Variant ID (e.g., rs number)
+Allele1:	Allele 1, interpreted as ref allele for signed sumstat.
+p:	p-Value
+N:	Sample size
+
+Reading list of SNPs for allele merge from /home/fengzhanying/software/ldsc/BMI/w_hm3.snplist
+Read 1217311 SNPs for allele merge.
+Reading sumstats from ./Input/BMI.txt into memory 5000000 SNPs at a time.
+Read 2471516 SNPs from --sumstats file.
+Removed 1400863 SNPs not in --merge-alleles.
+Removed 0 SNPs with missing values.
+Removed 0 SNPs with INFO <= 0.9.
+Removed 0 SNPs with MAF <= 0.01.
+Removed 0 SNPs with out-of-bounds p-values.
+Removed 6 variants that were not SNPs or were strand-ambiguous.
+1070647 SNPs remain.
+Removed 0 SNPs with duplicated rs numbers (1070647 SNPs remain).
+Removed 29808 SNPs with N < 82575.3333333 (1040839 SNPs remain).
+Removed 36 SNPs whose alleles did not match --merge-alleles (1040803 SNPs remain).
+Writing summary statistics for 1217311 SNPs (1040803 with nonmissing beta) to ./Input/BMI.sumstats.gz.
+
+Metadata:
+Mean chi^2 = 1.112
+Lambda GC = 1.038
+Max chi^2 = 277.2
+337 Genome-wide significant SNPs (some may have been removed by filtering).
+
+Conversion finished at Mon Jun  8 22:36:26 2020
+Total time elapsed: 44.63s
