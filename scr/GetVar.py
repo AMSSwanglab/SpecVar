@@ -68,6 +68,7 @@ if len(MaxV[1]) > 0:
 		MaxVV = max(MaxV[1])
 		indel1 = MaxV[1].index(MaxVV);
 		Final_rs += (str(MaxV[0][indel1])+':'+MaxV[2][indel1]+';;')
+		MaxV[1][indel1] = -100
 	print(str(FinalMaxV)+'\t'+Final_rs.strip(';;'))
 else:
 	print('0.0\tNA')
