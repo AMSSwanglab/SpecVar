@@ -67,7 +67,6 @@ do
 	
 	python3 GetRS.py
 	sort -k6nr ${t}_RETG_${1}_rs.txt > ${1}_${t}_rs_sorted.txt
-	rm -f ${t}_RE* ${t}_CRS*
+	python3 FilterTF.py
+	rm -f ${t}_RE* ${t}_CRS* *py Merge.sh
 done
-
-rm -f *py Merge.sh
