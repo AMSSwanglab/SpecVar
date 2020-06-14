@@ -39,7 +39,7 @@ for i in range(len(CRS)):
 	CC = float(CRS[i][2]) / MaxC;KK = K[1][indel2] / MaxK;VV = V[1][indel1] / MaxV
 	RS = (CC*KK*VV)**(1/3)
 	g.write(CRS[i][0]+'\t'+CRS[i][1]+'\t'+str(CC)+'\t'+str(KK)+'\t'+str(VV)+'\t'+str(RS)+'\t')
-	if 'NA' not in V[2][indel1]:
+	if V[2][indel1] != 'NA':
 		TempV2 = V[2][indel1].strip('\n').split(';;')
 		for j in range(len(TempV2)):
 			TempV2[j] = TempV2[j].split(':')
