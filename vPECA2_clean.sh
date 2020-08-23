@@ -1,16 +1,8 @@
 python ~/software/ldsc/munge_sumstats.py --sumstats ./Input/${1}.txt --merge-alleles ~/software/ldsc/${1}/w_hm3.snplist --out ./Input/${1} --a1-inc
 
-python ~/software/ldsc/ldsc.py --h2 ./Input/${1}.sumstats.gz --ref-ld-chr ./Data/Peak_full/86Tissue. --w-ld-chr ~/software/ldsc/weights/weights. --overlap-annot --frqfile-chr ./Data/Frq/1000G.EAS.QC. --out ./Result/${1}.Peak_full
-python ~/software/ldsc/ldsc.py --h2 ./Input/${1}.sumstats.gz --ref-ld-chr ./Data/Peak_specific/86Tissue. --w-ld-chr ~/software/ldsc/weights/weights. --overlap-annot --frqfile-chr ./Data/Frq/1000G.EAS.QC. --out ./Result/${1}.Peak_specific
-python ~/software/ldsc/ldsc.py --h2 ./Input/${1}.sumstats.gz --ref-ld-chr ./Data/PECA_full/86Tissue. --w-ld-chr ~/software/ldsc/weights/weights. --overlap-annot --frqfile-chr ./Data/Frq/1000G.EAS.QC. --out ./Result/${1}.PECA_full
 python ~/software/ldsc/ldsc.py --h2 ./Input/${1}.sumstats.gz --ref-ld-chr ./Data/PECA_specific/86Tissue. --w-ld-chr ~/software/ldsc/weights/weights. --overlap-annot --frqfile-chr ./Data/Frq/1000G.EAS.QC. --out ./Result/${1}.PECA_specific
-python ~/software/ldsc/ldsc.py --h2 ./Input/${1}.sumstats.gz --ref-ld-chr ./Data/Gene_specific/86Tissue. --w-ld-chr ~/software/ldsc/weights/weights. --overlap-annot --frqfile-chr ./Data/Frq/1000G.EAS.QC. --out ./Result/${1}.Gene_specific
 
-cat ./Result/${1}.Peak_full.results | sed '1,2d' | sed 's/_0//g' | grep -v HumanBrain | awk -v OFS='\t' '{print $1,-$5*log($7)/log(10)}' | sort -k2nr > ./Result/${1}.Peak_full.sorted.results
-cat ./Result/${1}.Peak_specific.results | sed '1,2d' | sed 's/_0//g' | grep -v HumanBrain | awk -v OFS='\t' '{print $1,-$5*log($7)/log(10)}' | sort -k2nr > ./Result/${1}.Peak_specific.sorted.results
-cat ./Result/${1}.PECA_full.results | sed '1,2d' | sed 's/_0//g' | grep -v HumanBrain | awk -v OFS='\t' '{print $1,-$5*log($7)/log(10)}' | sort -k2nr > ./Result/${1}.PECA_full.sorted.results
 cat ./Result/${1}.PECA_specific.results | sed '1,2d' | sed 's/_0//g' | grep -v HumanBrain | awk -v OFS='\t' '{print $1,-$5*log($7)/log(10)}' | sort -k2nr > ./Result/${1}.PECA_specific.sorted.results
-cat ./Result/${1}.Gene_specific.results | sed '1,2d' | sed 's/_0//g' | grep -v HumanBrain | awk -v OFS='\t' '{print $1,-$5*log($7)/log(10)}' | sort -k2nr > ./Result/${1}.Gene_specific.sorted.results
 
 echo "The Top 2 tissue associated with "${1}" is:"
 head -n 2 ./Result/${1}.PECA_specific.sorted.results
