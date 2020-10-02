@@ -17,6 +17,8 @@ Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.
     wget https://github.com/AMSSwanglab/vPECA2/archive/master.zip <br>
     <br>
     unzip master.zip<br>
+    <br>
+    Edit first line of vPECA2.sh to your personal LDSC home
 
 
 ## Run vPECA (Face GWAS as example)
