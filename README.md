@@ -18,7 +18,7 @@ Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.
 ```
 3.  Download the necessary files for vPECA2 into **vPECA2-master** at: <br>
     (1) [https://pan.baidu.com/s/1WHmyg06Ob6XXCLfmXJl-IA](https://pan.baidu.com/s/1WHmyg06Ob6XXCLfmXJl-IA) with extraction code: 11ih ; Or <br>
-    (2) [https://drive.google.com/file/d/1knVx0UjeMTGClgSCU8FxCFHO9Wg3_r-o/view?usp=sharing](https://drive.google.com/file/d/1knVx0UjeMTGClgSCU8FxCFHO9Wg3_r-o/view?usp=sharing) <br>
+    (2) [https://drive.google.com/file/d/17Rrysp64sS0tum4WB0ONcxthmDGBEKbw/view?usp=sharing](https://drive.google.com/file/d/17Rrysp64sS0tum4WB0ONcxthmDGBEKbw/view?usp=sharing) <br>
 
 4.  Edit first line of vPECA2.sh to your personal LDSC home to finish the installation
 
