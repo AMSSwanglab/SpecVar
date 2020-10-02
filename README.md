@@ -17,6 +17,7 @@ Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.
     cd vPECA2-master
 
 3.  Download the necessary files for vPECA2 into **vPECA2-master** at: <br>
+
 (1) [https://pan.baidu.com/s/1ydaXIA8naAUSWAwhEjZZIw](https://pan.baidu.com/s/1ydaXIA8naAUSWAwhEjZZIw) with extraction code: qq3o; Or <br>
 (2) [https://drive.google.com/file/d/1knVx0UjeMTGClgSCU8FxCFHO9Wg3_r-o/view?usp=sharing](https://drive.google.com/file/d/1knVx0UjeMTGClgSCU8FxCFHO9Wg3_r-o/view?usp=sharing) <br>
 
