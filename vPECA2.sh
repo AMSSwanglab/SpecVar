@@ -1,4 +1,4 @@
-LDSC_HOME='/home/fengzhanying/software/ldsc'
+LDSC_HOME='~/software/ldsc'
 
 python ${LDSC_HOME}/munge_sumstats.py --sumstats ./Input/${1}.txt --merge-alleles ./Data/w_hm3.snplist --out ./Input/${1} --a1-inc
 
