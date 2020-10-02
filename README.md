@@ -10,9 +10,11 @@ Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.
 (1) [https://pan.baidu.com/s/1ydaXIA8naAUSWAwhEjZZIw](https://pan.baidu.com/s/1ydaXIA8naAUSWAwhEjZZIw) with extraction code: qq3o; Or <br>
 (2) [https://drive.google.com/file/d/1knVx0UjeMTGClgSCU8FxCFHO9Wg3_r-o/view?usp=sharing](https://drive.google.com/file/d/1knVx0UjeMTGClgSCU8FxCFHO9Wg3_r-o/view?usp=sharing) <br>
 
-3.  Run the following commands to finish installation:
+3.  Run the following commands to finish installation:<br>
     tar -jxvf Files.tar.bz2 <br>
+    <br>
     wget https://github.com/SUwonglab/PECA/archive/master.zip <br>
+    <br>
     unzip master.zip<br>
 
 
