@@ -25,7 +25,7 @@ Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.
 
 ## Run vPECA (Face GWAS as example)
 ```bash
-bash vPECA2.sh Face
+  bash vPECA2.sh Face
 ```
 
 ## Requirements
