@@ -3,10 +3,8 @@ vPECA2 is a convenient tool for Pinpointing relevant tissue and interpreting gen
 
 ## Installation
 
-1.  Install LDSC at:<br>
-[https://github.com/bulik/ldsc](https://github.com/bulik/ldsc)<br>
-Install Homer at:<br>
-[http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.edu/homer/download.html)<br>
+1.  Install LDSC at: [https://github.com/bulik/ldsc](https://github.com/bulik/ldsc)<br>
+Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.edu/homer/download.html)<br>
 
 2.  Download the necessary files for vPECA2 at: <br>
 (1) [https://pan.baidu.com/s/1ydaXIA8naAUSWAwhEjZZIw](https://pan.baidu.com/s/1ydaXIA8naAUSWAwhEjZZIw) with extraction code: qq3o; Or <br>
