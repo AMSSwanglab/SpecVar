@@ -7,6 +7,7 @@ vPECA2 is a convenient tool for Pinpointing relevant tissue and interpreting gen
 Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.edu/homer/download.html)<br>
 
 2.  Run the following commands to start installation:<br>
+```bash
     <br>
     tar -jxvf Files.tar.bz2 <br>
     <br>
@@ -15,7 +16,7 @@ Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.
     unzip master.zip<br>
     <br>
     cd vPECA2-master
-
+```
 3.  Download the necessary files for vPECA2 into **vPECA2-master** at: <br>
 
     (1) [https://pan.baidu.com/s/1ydaXIA8naAUSWAwhEjZZIw](https://pan.baidu.com/s/1ydaXIA8naAUSWAwhEjZZIw) with extraction code: qq3o; Or <br>
