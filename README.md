@@ -14,11 +14,14 @@ Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.
     <br>
     tar -jxvf Files.tar.bz2 <br>
     <br>
-    wget https://github.com/SUwonglab/PECA/archive/master.zip <br>
+    wget https://github.com/AMSSwanglab/vPECA2/archive/master.zip <br>
     <br>
     unzip master.zip<br>
 
 
 ## Run vPECA (Face GWAS as example)
+```bash
+bash vPECA2.sh Face
+```
 
 ## Requirements
