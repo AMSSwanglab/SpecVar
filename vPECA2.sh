@@ -1,5 +1,4 @@
-LDSC_HOME='/home/fengzhanying//software/ldsc'
-Homer_HOME='/home/fengzhanying/software/PECA/PECA-master-v3'
+LDSC_HOME='/home/fengzhanying/software/ldsc'
 
 python ${LDSC_HOME}/munge_sumstats.py --sumstats ./Input/${1}.txt --merge-alleles ./Data/w_hm3.snplist --out ./Input/${1} --a1-inc
 
@@ -25,7 +24,7 @@ do
 	source Merge.sh ${t}_RETG_${1}.txt
 		
 	cat ${t}_RETG_${1}.txt | awk -F'--' '{print $1}' | sort | uniq | awk -F'_' -v OFS='\t' '{print $1,$2,$3,$0}' | sortBed > ${t}_RE_${1}.txt
-	findMotifsGenome.pl ${t}_RE_${1}.txt hg19 ./. -size given -find ./Data/all_motif_rmdup -preparsedDir ${Homer_HOME}/Homer/ > ${t}_${1}_MotifTarget.bed
+	findMotifsGenome.pl ${t}_RE_${1}.txt hg19 ./. -size given -find ./Data/all_motif_rmdup -preparsedDir ./Data/Homer/ > ${t}_${1}_MotifTarget.bed
 	cat ${t}_${1}_MotifTarget.bed | awk 'NR>1' | cut -f 1,4,6 > ${t}_${1}_MotifTarget.txt
 	rm -f ${t}_${1}_MotifTarget.bed motifFindingParameters.txt
 
@@ -47,7 +46,7 @@ do
 	bedtools intersect -wa -wb -a ${t}_specific_RETG.bed -b ./Input/${1}_full.bed | awk -v OFS='\t' '{print $4"--"$5,$9"--"$10"--"$11"--"$12"--"$13}' | sort -k1 > ${t}_specific_RETG_${1}.txt
 	source Merge.sh ${t}_specific_RETG_${1}.txt
 	cat ${t}_specific_RETG_${1}.txt | awk -F'--' '{print $1}' | sort | uniq | awk -F'_' -v OFS='\t' '{print $1,$2,$3,$0}' | sortBed > ${t}_specific_RE_${1}.txt
-	findMotifsGenome.pl ${t}_specific_RE_${1}.txt hg19 ./. -size given -find ./Data/all_motif_rmdup -preparsedDir ${Homer_HOME}/Homer/ > ${t}_specific_${1}_MotifTarget.bed
+	findMotifsGenome.pl ${t}_specific_RE_${1}.txt hg19 ./. -size given -find ./Data/all_motif_rmdup -preparsedDir ./Data/Homer/ > ${t}_specific_${1}_MotifTarget.bed
 	cat ${t}_specific_${1}_MotifTarget.bed | awk 'NR>1' | cut -f 1,4,6 > ${t}_specific_${1}_MotifTarget.txt
 	rm -f ${t}_specific_${1}_MotifTarget.bed motifFindingParameters.txt
 
