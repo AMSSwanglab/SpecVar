@@ -8,13 +8,13 @@ Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.
 
 2.  Run the following commands to start installation:<br>
 ```bash
-    tar -jxvf Files.tar.bz2
+  tar -jxvf Files.tar.bz2
     
-    wget https://github.com/AMSSwanglab/vPECA2/archive/master.zip
+  wget https://github.com/AMSSwanglab/vPECA2/archive/master.zip
     
-    unzip master.zip
+  unzip master.zip
     
-    cd vPECA2-master
+  cd vPECA2-master
 ```
 3.  Download the necessary files for vPECA2 into **vPECA2-master** at: <br>
 
