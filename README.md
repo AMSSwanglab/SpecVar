@@ -11,6 +11,7 @@ Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.
 (2) [https://drive.google.com/file/d/1knVx0UjeMTGClgSCU8FxCFHO9Wg3_r-o/view?usp=sharing](https://drive.google.com/file/d/1knVx0UjeMTGClgSCU8FxCFHO9Wg3_r-o/view?usp=sharing) <br>
 
 3.  Run the following commands to finish installation:<br>
+    <br>
     tar -jxvf Files.tar.bz2 <br>
     <br>
     wget https://github.com/SUwonglab/PECA/archive/master.zip <br>
