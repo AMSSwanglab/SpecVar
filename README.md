@@ -12,7 +12,8 @@ Install Homer at:<br>
 (1) [https://pan.baidu.com/s/1ydaXIA8naAUSWAwhEjZZIw](https://pan.baidu.com/s/1ydaXIA8naAUSWAwhEjZZIw) with extraction code: qq3o; Or <br>
 (2) [https://drive.google.com/file/d/1knVx0UjeMTGClgSCU8FxCFHO9Wg3_r-o/view?usp=sharing](https://drive.google.com/file/d/1knVx0UjeMTGClgSCU8FxCFHO9Wg3_r-o/view?usp=sharing) <br>
 
-`bash
+```bash
 tar -jxvf Files.tar.bz2
 wget https://github.com/SUwonglab/PECA/archive/master.zip
 unzip master.zip
+```
