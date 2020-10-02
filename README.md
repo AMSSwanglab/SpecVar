@@ -27,7 +27,7 @@ bash vPECA2.sh Face
 ```
 
 ## Requirements
-Operating system: Linux <br>
+
 Python environment: python 3 <br>
 Python package: numpy, sklearn, and scipy <br>
 LDSC <br>
