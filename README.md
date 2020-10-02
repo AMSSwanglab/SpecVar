@@ -20,3 +20,5 @@ unzip master.zip
 ```
 
 ## Run vPECA (Face GWAS as example)
+
+## Requirements
