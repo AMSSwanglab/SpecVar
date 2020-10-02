@@ -23,13 +23,15 @@ g = open('Tissue_RETG_GWAS_K.txt','w')
 for i in range(len(a)):
 	a[i] = a[i].strip('\n').split('\t')
 	a[i][1] = a[i][1].split(',')
-	K = 0
+	K = 0;KK = []
 	for j in range(len(a[i][1])):
 		a[i][1][j] = a[i][1][j].split('--')
 		if a[i][1][j][4] == '###':
 			K += (-np.log(float(a[i][1][j][1])))
+			KK.append(a[i][1][j][0])
 		else:
 			K += (-np.log(float(a[i][1][j][1]))/float(a[i][1][j][4]))
+			KK.append(a[i][1][j][0])
 	K = K / len(a[i][1])
-	g.write(a[i][0].replace('--','\t')+'\t'+str(K)+'\n')
+	g.write(a[i][0].replace('--','\t')+'\t'+",".join(KK)+'\t'+str(K)+'\n')
 g.close()
