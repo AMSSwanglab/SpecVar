@@ -2,13 +2,6 @@ import numpy as np
 from sklearn.mixture import GaussianMixture
 from scipy.stats import norm
 
-def GetPvalue1(X,x):
-	nor = GaussianMixture(n_components=2).fit(X)
-	mean = nor.means_;var = nor.covariances_;weight = nor.weights_
-	norm1 = norm(loc=mean[0],scale=np.sqrt(var[0]));norm2 = norm(loc=mean[1],scale=np.sqrt(var[1]))
-	p = 1 - ((norm1.cdf(x) * weight[0] + norm2.cdf(x) * weight[1])[0][0])
-	return p
-
 f = open('Tissue_RETG_GWAS_C.txt')
 CRS = f.readlines();f.close()
 
