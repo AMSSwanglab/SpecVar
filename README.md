@@ -1,5 +1,5 @@
 # SpeVar
-SpeVar is a convenient tool for Pinpointing relevant tissue and interpreting genetic variants with regulatory networks.
+SpeVar is a convenient tool for Pinpointing relevant tissue and interpreting genetic variants with context-specific regulatory networks.
 
 ## Installation
 
