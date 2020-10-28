@@ -1,5 +1,5 @@
-# SpeVar
-SpeVar is a convenient tool for Pinpointing relevant tissue and interpreting genetic variants with context-specific regulatory networks.
+# SpecVar
+SpecVar is a convenient tool for Pinpointing relevant tissue and interpreting genetic variants with context-specific regulatory networks.
 
 ## Installation
 
@@ -10,13 +10,13 @@ Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.
 ```bash
   tar -jxvf Files.tar.bz2
     
-  wget https://github.com/AMSSwanglab/SpeVar/archive/master.zip
+  wget https://github.com/AMSSwanglab/SpecVar/archive/master.zip
     
   unzip master.zip
     
-  cd SpeVar-master
+  cd SpecVar-master
 ```
-3.  Download the necessary files for SpeVar into **SpeVar-master** at: <br>
+3.  Download the necessary files for SpeVar into **SpecVar-master** at: <br>
     (1) [https://pan.baidu.com/s/1WHmyg06Ob6XXCLfmXJl-IA](https://pan.baidu.com/s/1WHmyg06Ob6XXCLfmXJl-IA) with extraction code: 11ih ; Or <br>
     (2) [https://drive.google.com/file/d/17Rrysp64sS0tum4WB0ONcxthmDGBEKbw/view?usp=sharing](https://drive.google.com/file/d/17Rrysp64sS0tum4WB0ONcxthmDGBEKbw/view?usp=sharing) <br>
 
@@ -25,7 +25,7 @@ Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.
 
 ## Run SpeVar (Face GWAS as example)
 ```bash
-  bash SpeVar.sh Face
+  bash SpecVar.sh Face
 ```
 
 ## Requirements
