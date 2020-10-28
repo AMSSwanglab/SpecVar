@@ -16,14 +16,14 @@ Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.
     
   cd SpecVar-master
 ```
-3.  Download the necessary files for SpeVar into **SpecVar-master** at: <br>
+3.  Download the necessary files for SpecVar into **SpecVar-master** at: <br>
     (1) [https://pan.baidu.com/s/1WHmyg06Ob6XXCLfmXJl-IA](https://pan.baidu.com/s/1WHmyg06Ob6XXCLfmXJl-IA) with extraction code: 11ih ; Or <br>
     (2) [https://drive.google.com/file/d/17Rrysp64sS0tum4WB0ONcxthmDGBEKbw/view?usp=sharing](https://drive.google.com/file/d/17Rrysp64sS0tum4WB0ONcxthmDGBEKbw/view?usp=sharing) <br>
 
-4.  Edit first line of SpeVar.sh to your personal LDSC home to finish the installation
+4.  Edit first line of SpecVar.sh to your personal LDSC home to finish the installation
 
 
-## Run SpeVar (Face GWAS as example)
+## Run SpecVar (Face GWAS as example)
 ```bash
   bash SpecVar.sh Face
 ```
