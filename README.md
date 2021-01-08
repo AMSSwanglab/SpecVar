@@ -23,10 +23,17 @@ Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.
 4.  Edit first line of SpecVar.sh to your personal LDSC home to finish the installation
 
 
-## Run SpecVar (GWAS of Cognitive Performance (CP) as example)
+## Run SpecVar (GWAS of Facail distances (Face) as example)
 ```bash
-  bash SpecVar.sh CP
+  bash SpecVar.sh Face
 ```
+## Results (GWAS of Face as example)
+
+Face.SpecVar.results: the LDSC standard output of partitioned heritability enrichment with 77 specific regulatory network. <br>
+Face.SpecVar.sorted.results: tissues ranked by RS score. <br>
+Face_SigTissue.txt: the significantly relevant tissues. <br>
+Face_CNCC_Report.txt: the associated CNCC-specific regulatory sub-network with Face GWAS. <br>
+Face_CNCC_SigSNP.txt: the ssociated CNCC regulatory sub-network with significant SNPs of Face GWAS. <br>
 
 ## Requirements
 
