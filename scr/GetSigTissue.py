@@ -1,6 +1,6 @@
 import numpy as np
 
-f = open('./Results/GWAS.PECA_specific.sorted.results')
+f = open('./Results/GWAS.SpecVar.sorted.results')
 a = f.readlines();f.close()
 score = []
 for j in range(len(a)):

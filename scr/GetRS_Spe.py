@@ -36,8 +36,10 @@ def GetPvalue2(x):
 g = open('./Results/GWAS_Tissue_Report.txt','w')
 g.write('RE\tTG\tSNP\tRS\tP-value\tTF\n')
 for i in range(len(Result2[0])):
-	pvalue=GetPvalue2(AllRS2[i])
-	g.write(AllRE2[i]+'\t'+str(AllRS2[i])+'\t'+str(pvalue)+'\t'+AllTF2[i])
+	indel = AllRS2.index(max(AllRS2))
+	pvalue=GetPvalue2(AllRS2[indel])
+	g.write(AllRE2[indel]+'\t'+str(AllRS2[indel])+'\t'+str(pvalue)+'\t'+AllTF2[indel])
+	AllRS2[indel] = -100
 g.close()
 
 f = open('./Data/SpecificGene/TissueSpeGene.txt')
@@ -47,7 +49,7 @@ SpeTF = [SpeTF[i].strip('\n') for i in range(len(SpeTF))]
 f = open('./Results/GWAS_Tissue_Report.txt')
 a = f.readlines();f.close()
 del a[0]
-g = open('Tissue_RETG_GWAS_Report_Clean.txt','w')
+g = open('./Results/GWAS_Tissue_Report_Clean.txt','w')
 g.write('RE\tTG\tSNP\tRS\tP-Value\tTF\n')
 for i in range(len(a)):
 	a[i] = a[i].strip('\n').split('\t')
