@@ -1,5 +1,5 @@
 # SpecVar
-SpecVar is a convenient tool for Pinpointing relevant tissue and interpreting genetic variants with context-specific regulatory networks.
+SpecVar is a convenient tool for pinpointing relevant tissue and interpreting genetic variants with specific regulatory networks.
 
 ## Installation
 
