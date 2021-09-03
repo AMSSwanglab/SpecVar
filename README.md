@@ -24,8 +24,21 @@ Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.
 
 
 ## Run SpecVar: <br>
-GWAS of Educational Attainment (EA) and Cognitive Performance (CP) as example
-
+Taking GWAS of Educational Attainment (EA) and Cognitive Performance (CP) as example.<br>
+1. Input files: EA.txt, EA.bed and CP.txt, CP.bed <br>
+```bash
+  head EA.txt
+MarkerName      A1      A2      EAF     p       N
+rs13090388      C       T       0.6905  4.29e-54        1070751
+rs7630869       C       T       0.6922  4.61e-54        1070751
+rs7623659       T       C       0.3095  4.75e-54        1070751
+rs11922013      G       C       0.6905  5.94e-54        1070751
+rs9859556       G       T       0.6905  6.03e-54        1070751
+rs6779524       C       T       0.6905  6.30e-54        1070751
+rs9871380       A       G       0.3095  6.68e-54        1070751
+rs9878943       G       A       0.6905  6.68e-54        1070751
+rs9814873       G       A       0.3095  6.78e-54        1070751
+```
 ```bash
   bash SpecVar_GC.sh EA CP
 ```
