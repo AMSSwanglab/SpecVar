@@ -15,7 +15,7 @@ SpecVar is a convenient tool for estimating interpretable genetic correlation of
 ```
 2. Download the necessary files for SpecVar into **SpecVar-master** at: [https://drive.google.com/file/d/1mm_koaVDlYwrd3IRj76_EvC-iBWhvZC8/view?usp=sharing](https://drive.google.com/file/d/1mm_koaVDlYwrd3IRj76_EvC-iBWhvZC8/view?usp=sharing) and run the fowllowing command:<br>
 ```bash
-tar -zxvf Prior.tar.gz
+  tar -zxvf Prior.tar.gz
 ```
 3.  Install LDSC at: [https://github.com/bulik/ldsc](https://github.com/bulik/ldsc)<br>
 Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.edu/homer/download.html)<br>
