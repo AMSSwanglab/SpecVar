@@ -20,10 +20,10 @@ Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.
     (1) [https://pan.baidu.com/s/1WHmyg06Ob6XXCLfmXJl-IA](https://pan.baidu.com/s/1WHmyg06Ob6XXCLfmXJl-IA) with extraction code: 11ih ; Or <br>
     (2) [https://drive.google.com/file/d/17Rrysp64sS0tum4WB0ONcxthmDGBEKbw/view?usp=sharing](https://drive.google.com/file/d/17Rrysp64sS0tum4WB0ONcxthmDGBEKbw/view?usp=sharing) <br>
 
-4.  Edit first line of SpecVar.sh to your personal LDSC home to finish the installation
+4.  Edit first line of SpecVar_GC.sh to your personal LDSC home to finish the installation
 
 
-## Run SpecVar (GWAS of Facail distances (Face) as example)
+## Run SpecVar (GWAS of Educational Attainment (EA) and Cognitive Performance (CP) as example)
 ```bash
   bash SpecVar_GC.sh EA CP
 ```
