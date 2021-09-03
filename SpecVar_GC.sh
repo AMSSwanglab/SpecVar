@@ -33,5 +33,5 @@ rm -f GetMRC.py
 echo "The Most Relevant Common Context is: "${MRC}
 
 source AnnotSNP.sh $GWAS1 $MRC
-source AnnotSNP.sh $GWAS1 $MRC
+source AnnotSNP.sh $GWAS2 $MRC
 echo "SpecVar for "${GWAS1}" and "${GWAS2}" done!"
