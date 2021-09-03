@@ -1,5 +1,5 @@
 # SpecVar
-SpecVar is a convenient tool for pinpointing relevant tissue and interpreting genetic variants with specific regulatory networks.
+SpecVar is a convenient tool for detecting interpretable genetic correlation of human complex traits and annotating the SNPs with context specific regulatory networks.
 
 ## Installation
 
@@ -41,5 +41,6 @@ Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.
   Python package: numpy, sklearn, and scipy <br>
   LDSC <br>
   Homer <br>
+  Better if number of processors is more than 8. <br>
   
 ## Citation
