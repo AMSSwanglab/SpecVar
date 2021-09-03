@@ -22,7 +22,7 @@ Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.
 4.  Edit first line of SpecVar_GC.sh to your personal LDSC home to finish the installation
 
 
-## Run SpecVar (GWAS of Educational Attainment (EA) and Cognitive Performance (CP) as example)
+## Run SpecVar: GWAS of Educational Attainment (EA) and Cognitive Performance (CP) as example
 ```bash
   bash SpecVar_GC.sh EA CP
 ```
