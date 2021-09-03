@@ -55,13 +55,14 @@ Taking GWAS of Educational Attainment (EA) and Cognitive Performance (CP) as exa
 ```bash
   bash SpecVar_GC.sh EA CP
 ```
-## Results (GWAS of Face as example)
-
-**Face.SpecVar.results:** The LDSC standard output of partitioned heritability enrichment with 77 specific regulatory network. <br>
-**Face.SpecVar.sorted.results:** Tissues ranked by RS score. <br>
-**Face_SigTissue.txt:** The significantly relevant tissues. <br>
-**Face_CNCC_Report.txt:** The associated CNCC-specific regulatory sub-network with Face GWAS. <br>
-**Face_CNCC_SigSNP.txt:** The ssociated CNCC regulatory sub-network with significant SNPs of Face GWAS. <br>
+3. Output files in **Results** fold:
+**EA.SpecVar.RS.txt**: the EA's RS scores to 77 human contexts; <br> 
+**EA_SigTissue.txt**: the EA's relevant human contexts; <br> 
+**CP.SpecVar.RS.txt**: the CP's RS scores to 77 human contexts; <br> 
+**CP_SigTissue.txt**: the CP's relevant human contexts; <br> 
+**EA_CP_GC.txt**: the genetic correlation and p-value of EA and CP; <br>
+**EA_frontal_cortex_SubNetwork.txt**: the EA's SNP associated regulatory subnetwork in the most relevant common context "frontal cortex"; <br>
+**CP_frontal_cortex_SubNetwork.txt**: the CP's SNP associated regulatory subnetwork in the most relevant common context "frontal cortex"; <br>
 
 ## Requirements
 
