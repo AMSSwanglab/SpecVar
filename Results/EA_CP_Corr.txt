@@ -1,0 +1,2 @@
+Genetic correlation: 0.4630632525369367
+P-value: 2.2290351821379764e-05
