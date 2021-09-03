@@ -1,14 +1,11 @@
 # SpecVar
-SpecVar is a convenient tool for detecting interpretable genetic correlation of human complex traits and annotating the SNPs with context specific regulatory networks.
+SpecVar is a convenient tool for estimating interpretable genetic correlation of human complex traits and annotating the SNPs with context specific regulatory networks.
 
 ## Installation
 
-1.  Install LDSC at: [https://github.com/bulik/ldsc](https://github.com/bulik/ldsc)<br>
-Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.edu/homer/download.html)<br>
-
-2.  Run the following commands to start installation:<br>
+1. Run the following commands for installation:<br>
 ```bash
-  tar -jxvf Files.tar.bz2
+  tar -zxvf Prior.tar.gz
     
   wget https://github.com/AMSSwanglab/SpecVar/archive/master.zip
     
@@ -16,7 +13,12 @@ Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.
     
   cd SpecVar-master
 ```
-3.  Download the necessary files for SpecVar into **SpecVar-master** at: [https://drive.google.com/file/d/1mm_koaVDlYwrd3IRj76_EvC-iBWhvZC8/view?usp=sharing](https://drive.google.com/file/d/1mm_koaVDlYwrd3IRj76_EvC-iBWhvZC8/view?usp=sharing) <br>
+2. Download the necessary files for SpecVar into **SpecVar-master** at: [https://drive.google.com/file/d/1mm_koaVDlYwrd3IRj76_EvC-iBWhvZC8/view?usp=sharing](https://drive.google.com/file/d/1mm_koaVDlYwrd3IRj76_EvC-iBWhvZC8/view?usp=sharing) and run the fowllowing command:<br>
+```bash
+tar -zxvf Prior.tar.gz
+```
+3.  Install LDSC at: [https://github.com/bulik/ldsc](https://github.com/bulik/ldsc)<br>
+Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.edu/homer/download.html)<br>
 
 4.  Edit first line of SpecVar_GC.sh to your personal LDSC home to finish the installation
 
