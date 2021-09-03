@@ -55,7 +55,7 @@ Taking GWAS of Educational Attainment (EA) and Cognitive Performance (CP) as exa
 ```bash
   bash SpecVar_GC.sh EA CP
 ```
-3. Output files in **Results** fold:
+3. Output files in **Results** fold:<br>
 **EA.SpecVar.RS.txt**: the EA's RS scores to 77 human contexts; <br> 
 **EA_SigTissue.txt**: the EA's relevant human contexts; <br> 
 **CP.SpecVar.RS.txt**: the CP's RS scores to 77 human contexts; <br> 
