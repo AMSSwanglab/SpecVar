@@ -36,7 +36,7 @@ Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.
 
 ## Requirements
 
-  Python environment: python 2 <br>
+  python <br>
   Python package: numpy, sklearn, and scipy <br>
   LDSC <br>
   Homer <br>
