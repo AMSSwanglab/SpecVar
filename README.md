@@ -25,7 +25,7 @@ Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.
 
 ## Run SpecVar (GWAS of Facail distances (Face) as example)
 ```bash
-  bash SpecVar.sh Face
+  bash SpecVar_GC.sh EA CP
 ```
 ## Results (GWAS of Face as example)
 
