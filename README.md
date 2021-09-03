@@ -62,7 +62,7 @@ Taking GWAS of Educational Attainment (EA) and Cognitive Performance (CP) as exa
 **CP_SigTissue.txt**: the CP's relevant human contexts; <br> 
 **EA_CP_GC.txt**: the genetic correlation and p-value of EA and CP; <br>
 **EA_frontal_cortex_SubNetwork.txt**: the EA's SNP associated regulatory subnetwork in the most relevant common context "frontal cortex"; <br>
-**CP_frontal_cortex_SubNetwork.txt**: the CP's SNP associated regulatory subnetwork in the most relevant common context "frontal cortex"; <br>
+**CP_frontal_cortex_SubNetwork.txt**: the CP's SNP associated regulatory subnetwork in the most relevant common context "frontal cortex". <br>
 
 ## Requirements
 
@@ -73,3 +73,6 @@ Taking GWAS of Educational Attainment (EA) and Cognitive Performance (CP) as exa
   Better if number of processors is more than 8. <br>
   
 ## Citation
+If you use SpecVar or SpecVar associated concepts, please cite
+
+Zhanying, et al. Cellular context-specific regulation-based inference of genetic correlation across human complex traits. 2021.
