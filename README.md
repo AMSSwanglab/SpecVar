@@ -5,8 +5,6 @@ SpecVar is a convenient tool for estimating interpretable genetic correlation of
 
 1. Run the following commands for installation:<br>
 ```bash
-  tar -zxvf Prior.tar.gz
-    
   wget https://github.com/AMSSwanglab/SpecVar/archive/master.zip
     
   unzip master.zip
