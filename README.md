@@ -84,4 +84,4 @@ Taking GWAS of Educational Attainment (EA) and Cognitive Performance (CP) as exa
 ## Citation
 If you use SpecVar or SpecVar associated concepts, please cite
 
-Zhanying, et al. Cellular context-specific regulation-based inference of genetic correlation across human complex traits. 2021.
+Zhanying Feng, et al. Heritability enrichment in context-specific regulatory networks improves phenotype-relevant tissue identification. eLife 2022.
