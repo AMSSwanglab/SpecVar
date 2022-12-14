@@ -18,10 +18,10 @@ SpecVar is a convenient tool for estimating heritability enrichment, identifying
 3.  Install LDSC at: [https://github.com/bulik/ldsc](https://github.com/bulik/ldsc)<br>
 Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.edu/homer/download.html)<br>
 
-4.  Edit the LDSC_HOME path in SpecVar_GC.sh to your personal LDSC home to finish the installation
+4.  Edit the PATHON_HOME and LDSC_HOME path in SpecVar_GC.sh to your personal LDSC home to finish the installation
 
 
-## Run SpecVar: <br>
+## Run relevant contexts idenfication mode of SpecVar: <br>
 Taking GWAS of Educational Attainment (EA) and Cognitive Performance (CP) as example.<br>
 1. Input files: EA.txt, EA.bed and CP.txt, CP.bed <br>
 ```bash
