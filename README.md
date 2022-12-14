@@ -1,5 +1,5 @@
 # SpecVar
-SpecVar is a convenient tool for estimating interpretable genetic correlation of human complex traits and annotating the SNPs with context specific regulatory networks.
+SpecVar is a convenient tool for estimating heritability enrichment, identifying relevant tissues and relevance correlation for human complex traits.
 
 ## Installation
 
