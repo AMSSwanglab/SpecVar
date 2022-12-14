@@ -48,7 +48,7 @@ Taking GWAS of Educational Attainment (EA) as example.<br>
   chr3    49454112        49454112        rs9814873       6.78e-54        120.853
   chr3    49453834        49453834        rs6997  6.88e-54        120.853
 ```
-2. After preparing the input files as above, run the following command to estimate genetic correlation:
+2. After preparing the input files as above, run the following command to identify relevant contexts:
 ```bash
   bash SpecVar_RT.sh EA
 ```
@@ -60,7 +60,7 @@ Taking GWAS of Educational Attainment (EA) as example.<br>
 ## Run phenotypic correlation estimation mode of SpecVar: <br>
 Taking GWAS of Educational Attainment (EA) and Cognitive Performance (CP) as example.<br>
 1. Input files: EA.txt, EA.bed and CP.txt, CP.bed with same formats above <br>
-2. After preparing the input files as above, run the following command to estimate genetic correlation:
+2. After preparing the input files as above, run the following command to estimate phenotypic correlation:
 ```bash
   bash SpecVar_GC.sh EA CP
 ```
