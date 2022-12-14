@@ -50,17 +50,12 @@ Taking GWAS of Educational Attainment (EA) and Cognitive Performance (CP) as exa
 ```
 2. After preparing the input files as above, run the following command to estimate genetic correlation:
 ```bash
-  bash SpecVar_GC.sh EA CP
+  bash SpecVar_RT.sh EA
 ```
 3. Output files in **Results** fold:<br>
 **EA.SpecVar.RS.txt**: the EA's RS scores to 77 human contexts; <br> 
 **EA_SigTissue.txt**: the EA's relevant human contexts; <br> 
-**CP.SpecVar.RS.txt**: the CP's RS scores to 77 human contexts; <br> 
-**CP_SigTissue.txt**: the CP's relevant human contexts; <br> 
-**EA_CP_GC.txt**: the genetic correlation and p-value of EA and CP; <br>
 **EA_frontal_cortex_SubNetwork.txt**: the EA's SNP associated regulatory subnetwork in the most relevant common context "frontal cortex"; <br>
-**CP_frontal_cortex_SubNetwork.txt**: the CP's SNP associated regulatory subnetwork in the most relevant common context "frontal cortex". <br>
-
 
 ## Run phenotypic correlation estimation mode of SpecVar: <br>
 Taking GWAS of Educational Attainment (EA) and Cognitive Performance (CP) as example.<br>
