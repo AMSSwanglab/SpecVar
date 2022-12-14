@@ -20,10 +20,9 @@ Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.
 
 4.  Edit the PATHON_HOME and LDSC_HOME path in SpecVar_GC.sh to your personal LDSC home to finish the installation
 
-
 ## Run relevant contexts idenfication mode of SpecVar: <br>
 Taking GWAS of Educational Attainment (EA) and Cognitive Performance (CP) as example.<br>
-1. Input files: EA.txt, EA.bed and CP.txt, CP.bed <br>
+1. Input files: EA.txt, EA.bed<br>
 ```bash
   head EA.txt
   MarkerName      A1      A2      EAF     p       N
@@ -49,6 +48,23 @@ Taking GWAS of Educational Attainment (EA) and Cognitive Performance (CP) as exa
   chr3    49454112        49454112        rs9814873       6.78e-54        120.853
   chr3    49453834        49453834        rs6997  6.88e-54        120.853
 ```
+2. After preparing the input files as above, run the following command to estimate genetic correlation:
+```bash
+  bash SpecVar_GC.sh EA CP
+```
+3. Output files in **Results** fold:<br>
+**EA.SpecVar.RS.txt**: the EA's RS scores to 77 human contexts; <br> 
+**EA_SigTissue.txt**: the EA's relevant human contexts; <br> 
+**CP.SpecVar.RS.txt**: the CP's RS scores to 77 human contexts; <br> 
+**CP_SigTissue.txt**: the CP's relevant human contexts; <br> 
+**EA_CP_GC.txt**: the genetic correlation and p-value of EA and CP; <br>
+**EA_frontal_cortex_SubNetwork.txt**: the EA's SNP associated regulatory subnetwork in the most relevant common context "frontal cortex"; <br>
+**CP_frontal_cortex_SubNetwork.txt**: the CP's SNP associated regulatory subnetwork in the most relevant common context "frontal cortex". <br>
+
+
+## Run relevant contexts idenfication mode of SpecVar: <br>
+Taking GWAS of Educational Attainment (EA) and Cognitive Performance (CP) as example.<br>
+1. Input files: EA.txt, EA.bed and CP.txt, CP.bed with same formats above <br>
 2. After preparing the input files as above, run the following command to estimate genetic correlation:
 ```bash
   bash SpecVar_GC.sh EA CP
