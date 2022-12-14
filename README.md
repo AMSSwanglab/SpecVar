@@ -21,7 +21,7 @@ Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.
 4.  Edit the PATHON_HOME and LDSC_HOME path in SpecVar_GC.sh to your personal LDSC home to finish the installation
 
 ## Run relevant contexts idenfication mode of SpecVar: <br>
-Taking GWAS of Educational Attainment (EA) and Cognitive Performance (CP) as example.<br>
+Taking GWAS of Educational Attainment (EA) as example.<br>
 1. Input files: EA.txt, EA.bed<br>
 ```bash
   head EA.txt
