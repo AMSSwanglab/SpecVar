@@ -55,7 +55,7 @@ Taking GWAS of Educational Attainment (EA) and Cognitive Performance (CP) as exa
 3. Output files in **Results** fold:<br>
 **EA.SpecVar.RS.txt**: the EA's RS scores to 77 human contexts; <br> 
 **EA_SigTissue.txt**: the EA's relevant human contexts; <br> 
-**EA_frontal_cortex_SubNetwork.txt**: the EA's SNP associated regulatory subnetwork in the most relevant common context "frontal cortex"; <br>
+**EA_frontal_cortex_SubNetwork.txt**: the EA's SNP associated regulatory subnetwork in the most relevant context "frontal cortex"; <br>
 
 ## Run phenotypic correlation estimation mode of SpecVar: <br>
 Taking GWAS of Educational Attainment (EA) and Cognitive Performance (CP) as example.<br>
