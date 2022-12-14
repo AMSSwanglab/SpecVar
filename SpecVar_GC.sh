@@ -1,6 +1,6 @@
 #/bin/bash
 
-# Genetic Correlation version of SpecVar 1.0, updated at Dec 14th, 2022 by Zhanying Feng
+# Phenotypic Correlation version of SpecVar 1.0, updated at Dec 14th, 2022 by Zhanying Feng
 
 PYTHON_HOME="~/software/anaconda2/bin/"
 LDSC_HOME='~/software/ldsc'
