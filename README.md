@@ -62,7 +62,7 @@ Taking GWAS of Educational Attainment (EA) and Cognitive Performance (CP) as exa
 **CP_frontal_cortex_SubNetwork.txt**: the CP's SNP associated regulatory subnetwork in the most relevant common context "frontal cortex". <br>
 
 
-## Run relevant contexts idenfication mode of SpecVar: <br>
+## Run phenotypic correlation estimation mode of SpecVar: <br>
 Taking GWAS of Educational Attainment (EA) and Cognitive Performance (CP) as example.<br>
 1. Input files: EA.txt, EA.bed and CP.txt, CP.bed with same formats above <br>
 2. After preparing the input files as above, run the following command to estimate genetic correlation:
