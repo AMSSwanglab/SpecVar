@@ -1,6 +1,6 @@
 #/bin/bash
 
-# Relevant contexts identification by SpecVar, updated at Dec 14th, 2022 by Zhanying Feng, please contact zyfeng@amss.ac.cn to report bugs
+# Relevant contexts identification version of SpecVar, updated at Dec 14th, 2022 by Zhanying Feng, please contact zyfeng@amss.ac.cn to report bugs
 
 PYTHON_HOME="/home/users/zyfeng/Software/anaconda2/bin/"
 LDSC_HOME="/home/users/zyfeng/Software/ldsc/"
