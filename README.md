@@ -84,4 +84,4 @@ Taking GWAS of Educational Attainment (EA) and Cognitive Performance (CP) as exa
 ## Citation
 If you use SpecVar or SpecVar associated concepts, please cite
 
-Zhanying Feng, et al. Heritability enrichment in context-specific regulatory networks improves phenotype-relevant tissue identification. eLife 2022.
+Zhanying Feng, et al. [Heritability enrichment in context-specific regulatory networks improves phenotype-relevant tissue identification](https://elifesciences.org/articles/82535). eLife 2022.
