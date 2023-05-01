@@ -21,6 +21,7 @@ Note: if you can't use wget command to download files in google drive, you can m
 
 2.  Install LDSC at: [https://github.com/bulik/ldsc](https://github.com/bulik/ldsc)<br>
 Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.edu/homer/download.html)<br>
+Install bedtools at: [https://bedtools.readthedocs.io/en/latest/content/installation.html](https://bedtools.readthedocs.io/en/latest/content/installation.html)<br>
 
 3.  Edit the PATHON_HOME and LDSC_HOME path in SpecVar_GC.sh to your personal LDSC home to finish the installation
 
