@@ -11,7 +11,7 @@ unzip master.zip
 
 cd SpecVar-master
 
-wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1mm_koaVDlYwrd3IRj76_EvC-iBWhvZC8' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1mm_koaVDlYwrd3IRj76_EvC-iBWhvZC8" -O SpecVar_Data.tar.gz && rm -rf /tmp/cookies.txt
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1NNK_R_1DQo8wxkIoXLE2ntM4GilqmP60' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1NNK_R_1DQo8wxkIoXLE2ntM4GilqmP60" -O SpecVar_Data.tar.gz && rm -rf /tmp/cookies.txt
 
 tar -zxvf SpecVar_Data.tar.gz
 
