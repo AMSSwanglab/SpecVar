@@ -13,9 +13,9 @@ SpecVar is a convenient tool for estimating heritability enrichment, identifying
 ```
 2. Download the necessary files for SpecVar into **SpecVar-master** at: [https://drive.google.com/file/d/1mm_koaVDlYwrd3IRj76_EvC-iBWhvZC8/view?usp=sharing](https://drive.google.com/file/d/1mm_koaVDlYwrd3IRj76_EvC-iBWhvZC8/view?usp=sharing) and run the fowllowing command:<br>
 ```bash
-   wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1mm_koaVDlYwrd3IRj76_EvC-iBWhvZC8' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1mm_koaVDlYwrd3IRj76_EvC-iBWhvZC8" -O SpecVar_Data.tar.gz && rm -rf /tmp/cookies.txt
-  tar -zxvf SpecVar_Data.tar.gz
-  rm -f SpecVar_Data.tar.gz
+wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1mm_koaVDlYwrd3IRj76_EvC-iBWhvZC8' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1mm_koaVDlYwrd3IRj76_EvC-iBWhvZC8" -O SpecVar_Data.tar.gz && rm -rf /tmp/cookies.txt
+tar -zxvf SpecVar_Data.tar.gz
+rm -f SpecVar_Data.tar.gz
 ```
 3.  Install LDSC at: [https://github.com/bulik/ldsc](https://github.com/bulik/ldsc)<br>
 Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.edu/homer/download.html)<br>
