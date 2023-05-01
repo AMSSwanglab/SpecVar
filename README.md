@@ -73,6 +73,8 @@ Taking GWAS of Educational Attainment (EA) and Cognitive Performance (CP) as exa
 **EA_frontal_cortex_SubNetwork.txt**: the EA's SNP associated regulatory subnetwork in the most relevant common context "frontal cortex"; <br>
 **CP_frontal_cortex_SubNetwork.txt**: the CP's SNP associated regulatory subnetwork in the most relevant common context "frontal cortex". <br>
 
+## Run fold enrichment mode of SpecVar: <br>
+
 ## Requirements
 
   Python <br>
