@@ -1,3 +1,6 @@
+#/bin/bash
+
+# Fold enrichment version of SpecVar 1.0, updated at May 1st, 2023 by Zhanying Feng, please contact zyfeng@amss.ac.cn to report bugs
 
 GWAS=$1
 mkdir ${GWAS}_RE_Overlap
