@@ -64,7 +64,7 @@ Taking GWAS of Educational Attainment (EA) and Cognitive Performance (CP) as exa
 ```bash
   bash SpecVar_GC.sh EA CP
 ```
-3. Output files in **Results** fold:<br>
+3. Output files in **./Results/** fold:<br>
 **EA.SpecVar.RS.txt**: the EA's RS scores to 77 human contexts; <br> 
 **EA_SigTissue.txt**: the EA's relevant human contexts; <br> 
 **CP.SpecVar.RS.txt**: the CP's RS scores to 77 human contexts; <br> 
@@ -92,6 +92,9 @@ Then run the following command to do FE analysis of SpecVar.
 ```bash
 bash SpecVar_FE.sh COVID19
 ```
+The Output files in **./Results/COVID19/** fold:<br>
+**COVID19_FE.txt**: the COVID19's FE scores to 77 human contexts; <br> 
+**COVID19_Primary_monocytes_from_peripheral_blood_network.txt**: the COVID19's associated regulatory network in Primary_monocytes_from_peripheral_blood_network; <br> 
 
 ## Requirements
 
