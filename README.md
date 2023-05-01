@@ -94,7 +94,7 @@ bash SpecVar_FE.sh COVID19
 ```
 The Output files in **./Results/COVID19/** fold:<br>
 **COVID19_FE.txt**: the COVID19's FE scores to 77 human contexts; <br> 
-**COVID19_Primary_monocytes_from_peripheral_blood_network.txt**: the COVID19's associated regulatory network in Primary_monocytes_from_peripheral_blood_network; <br> 
+**COVID19_Primary_monocytes_from_peripheral_blood_network.txt**: the COVID19's associated regulatory network in "Primary_monocytes_from_peripheral_blood"; <br> 
 
 ## Requirements
 
