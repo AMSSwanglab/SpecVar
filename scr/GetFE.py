@@ -39,11 +39,11 @@ for i in range(len(celltype)):
 		net[j][3] = net[j][3].split(';')
 	f = open('GWAS_RE_Overlap/GWAS_'+celltype[i]+'.txt')
 	g = open('./Results/GWAS/GWAS_'+celltype[i]+'_network.txt','w')
-	g.write('SNP\tTF\tTG\tRE\tTRS\n')
+	g.write('SNP\tPvalue\tTF\tTG\tRE\tTRS\n')
 	a = f.readlines();f.close()
 	for j in range(len(a)):
 		a[j] = a[j].strip('\n').split('\t')
 		for k in range(len(net)):
-			if a[j][7] in net[k][3]:
-				g.write(a[j][3]+'\t'+net[k][0]+'\t'+net[k][1]+'\t'+a[j][7]+'\t'+net[k][2]+'\n')
+			if a[j][8] in net[k][3]:
+				g.write(a[j][3]+'\t'+a[j][4]+'\t'+net[k][0]+'\t'+net[k][1]+'\t'+a[j][8]+'\t'+net[k][2]+'\n')
 	g.close()
