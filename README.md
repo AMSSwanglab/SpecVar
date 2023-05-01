@@ -74,6 +74,24 @@ Taking GWAS of Educational Attainment (EA) and Cognitive Performance (CP) as exa
 **CP_frontal_cortex_SubNetwork.txt**: the CP's SNP associated regulatory subnetwork in the most relevant common context "frontal cortex". <br>
 
 ## Run fold enrichment mode of SpecVar: <br>
+This program takes a set of genomic loci (SNPs or all kinds of QTLs) as input.Taking GWAS of COVID19 as example:
+```bash
+head COVID19.bed
+chr3	45798226	45798226	3:45798226:C:T
+chr3	45822010	45822010	3:45822010:T:C
+chr3	45841938	45841938	3:45841938:C:T
+chr3	45843242	45843242	3:45843242:G:A
+chr3	45843315	45843315	3:45843315:C:T
+chr3	45843439	45843439	3:45843439:G:T
+chr3	45844198	45844198	3:45844198:A:C
+chr3	45845748	45845748	3:45845748:A:C
+chr3	45846769	45846769	3:45846769:A:G
+chr3	45847241	45847241	3:45847241:A:G
+```
+Then run the following command to do FE analysis of SpecVar.
+```bash
+bash SpecVar_FE.sh COVID19
+```
 
 ## Requirements
 
