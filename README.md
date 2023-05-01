@@ -23,7 +23,7 @@ Note: if you can't use wget command to download files in google drive, you can m
 Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.edu/homer/download.html)<br>
 Install bedtools at: [https://bedtools.readthedocs.io/en/latest/content/installation.html](https://bedtools.readthedocs.io/en/latest/content/installation.html)<br>
 
-3.  Edit the PATHON_HOME and LDSC_HOME path in SpecVar_GC.sh to your personal LDSC home to finish the installation
+3.  Edit the PATHON_HOME (python2), PATHON3_HOME (python3), LDSC_HOME, Bedtools_HOME, and HOMER_HOME path in SpecVar_RT.sh, SpecVar_GC.sh, SpecVar_FE.sh to your personal software location to finish the installation
 
 ## Run relevant contexts idenfication mode of SpecVar: <br>
 Taking GWAS of Educational Attainment (EA) as example.<br>
@@ -103,9 +103,10 @@ The Output files in **./Results/COVID19/** fold:<br>
 
 ## Requirements
 
-  Python <br>
+  Python2 and Python3 <br>
   Python package: numpy, sklearn, and scipy <br>
   LDSC <br>
+  Bedtools <br>
   Homer <br>
   Better if number of processors is more than 8. <br>
   
