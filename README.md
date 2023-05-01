@@ -5,24 +5,22 @@ SpecVar is a convenient tool for estimating heritability enrichment, identifying
 
 1. Run the following commands for installation:<br>
 ```bash
-  wget https://github.com/AMSSwanglab/SpecVar/archive/master.zip
-    
-  unzip master.zip
-    
-  cd SpecVar-master
-```
-2. Download the necessary files for SpecVar into **SpecVar-master** by running the fowllowing command:<br>
-```bash
+wget https://github.com/AMSSwanglab/SpecVar/archive/master.zip
+
+unzip master.zip
+
+cd SpecVar-master
+
 wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1mm_koaVDlYwrd3IRj76_EvC-iBWhvZC8' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1mm_koaVDlYwrd3IRj76_EvC-iBWhvZC8" -O SpecVar_Data.tar.gz && rm -rf /tmp/cookies.txt
 
 tar -zxvf SpecVar_Data.tar.gz
 
 rm -f SpecVar_Data.tar.gz
 ```
-3.  Install LDSC at: [https://github.com/bulik/ldsc](https://github.com/bulik/ldsc)<br>
+2.  Install LDSC at: [https://github.com/bulik/ldsc](https://github.com/bulik/ldsc)<br>
 Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.edu/homer/download.html)<br>
 
-4.  Edit the PATHON_HOME and LDSC_HOME path in SpecVar_GC.sh to your personal LDSC home to finish the installation
+3.  Edit the PATHON_HOME and LDSC_HOME path in SpecVar_GC.sh to your personal LDSC home to finish the installation
 
 ## Run relevant contexts idenfication mode of SpecVar: <br>
 Taking GWAS of Educational Attainment (EA) as example.<br>
