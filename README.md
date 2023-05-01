@@ -18,6 +18,7 @@ tar -zxvf SpecVar_Data.tar.gz
 rm -f SpecVar_Data.tar.gz
 ```
 Note: if you can't use wget command to download files in google drive, you can manually download SpecVar_Data.tar.gz at [https://drive.google.com/file/d/1NNK_R_1DQo8wxkIoXLE2ntM4GilqmP60/view?usp=share_link](https://drive.google.com/file/d/1NNK_R_1DQo8wxkIoXLE2ntM4GilqmP60/view?usp=share_link)<br>
+
 2.  Install LDSC at: [https://github.com/bulik/ldsc](https://github.com/bulik/ldsc)<br>
 Install Homer at: [http://homer.ucsd.edu/homer/download.html](http://homer.ucsd.edu/homer/download.html)<br>
 
