@@ -93,6 +93,8 @@ chr12   113361117       113361117       12:113361117:C:T        4.526e-09
 chr12   113361158       113361158       12:113361158:C:T        4.889e-08
 chr12   113361174       113361174       12:113361174:T:C        4.861e-08
 ```
+Note: the last column is the P-value of SNPs. If you don't have P-values for your loci, this can be replaced by any biologically meaningful scores or blank characters.<br>
+
 Then run the following command to do FE analysis of SpecVar.
 ```bash
 bash SpecVar_FE.sh COVID19
