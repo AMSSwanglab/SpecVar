@@ -100,8 +100,8 @@ Then run the following command to do FE analysis of SpecVar.
 bash SpecVar_FE.sh COVID19
 ```
 The Output files in **./Results/COVID19/** fold:<br>
-**COVID19_FE.txt**: the COVID19's FE scores to 77 human contexts; <br> 
-**COVID19_Primary_monocytes_from_peripheral_blood_network.txt**: the COVID19's associated regulatory network in "Primary_monocytes_from_peripheral_blood"; <br> 
+**COVID19_FE.txt**: The COVID19's FE scores to 77 human contexts; <br> 
+**COVID19_Primary_monocytes_from_peripheral_blood_network.txt**: The COVID19's associated regulatory network in "Primary_monocytes_from_peripheral_blood". Each row means one SNP with P-value is inside of RE, which will potentially affect TF's binding and TG's expression with regulatory strength TRS. <br>
 
 ## Requirements
 
